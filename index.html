@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./theme-simple.css" />
+		<link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+
+
+		<style>
+			:root {
+				--base-font-size: 16px;
+				--theme-color: rgb(188, 12, 12);
+				--link-color: rgb(188, 12, 12);
+				--code-theme-background: #333;
+				--code-theme-text: #eee;
+				--code-inline-background: #eee;
+				--code-inline-color: #333;
+				--notice-tip-border-color: #5fafd7;
+				--notice-important-border-color: rgb(188, 12, 12);
+				--docsifytabs-border-color: #ededed;
+				--docsifytabs-tab-highlight-color: rgb(188, 12, 12);
+
+				--sidebar-nav-link-border-color--active: rgb(188, 12, 12);
+				--sidebar-name-color: rgb(188, 12, 12);
+				--sidebar-nav-link-color--active: rgb(188, 12, 12);
+
+				--content-max-width: 1420px;
+			}
+			
+			code[class*="language-"],
+			pre[class*="language-"] {
+				color: #ccc;
+				background: none;
+				font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+				font-size: 1em;
+				text-align: left;
+				white-space: pre;
+				word-spacing: normal;
+				word-break: normal;
+				word-wrap: normal;
+				line-height: 1.5;
+
+				-moz-tab-size: 4;
+				-o-tab-size: 4;
+				tab-size: 4;
+
+				-webkit-hyphens: none;
+				-moz-hyphens: none;
+				-ms-hyphens: none;
+				hyphens: none;
+			}
+
+			/* Code blocks */
+			pre[class*="language-"] {
+				padding: 1em;
+				margin: 0.5em 0;
+				overflow: auto;
+			}
+
+			:not(pre) > code[class*="language-"],
+			pre[class*="language-"] {
+				background: #2d2d2d;
+			}
+
+			/* Inline code */
+			:not(pre) > code[class*="language-"] {
+				padding: 0.1em;
+				border-radius: 0.3em;
+				white-space: normal;
+			}
+
+			.token.comment,
+			.token.block-comment {
+				color: #9e9e9e;
+			}
+
+			.token.success,
+			.token.operator {
+				color: white;
+			}
+
+			.token.error {
+				color: white;
+				background-color: rgb(188, 12, 12);
+			}
+
+			.token.property,
+			.token.class-name,
+			.token.constant,
+			.token.symbol,
+			.token.key,
+			.token.keypress {
+				color: #5fafd7;
+			}
+
+			.token.boolean,
+			.token.null,
+			.token.keyword {
+				color: rgb(188, 12, 12);
+			}
+
+			.token.number {
+				color: #d78700;
+			}
+
+			.token.string,
+			.token.char,
+			.token.attr-value,
+			.token.regex {
+				color: #afd787;
+			}
+
+			.token.variable,
+			.token.binary,
+			.token.function {
+				color: #ffd7d7;
+			}
+
+			.token.date {
+				color: #af87af;
+			}
+
+			.token.uri, .token.url {
+				color: #d6ffb7;
+				font-style: italic;
+			}
+
+			.token.diffAdded {
+				color: #afd787;
+			}
+			.token.diffModified {
+				color: #d78700;
+			}
+			.token.diffRemoved {
+				color: #ff5f87;
+			}
+
+			.alert.flat.attention {
+				background-color: #fdf0d7 !important;
+				border-color: #fdd983 !important;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="app">Carregando...</div>
+		<script>
+			window.$docsify = {
+
+				requestHeaders: {
+					'cache-control': 'max-age=0',
+				},
+
+      			name: 'Servidor da Ordem',
+				// logo: '../modules/painel/images/marca-painel-login.png',
+
+				executeScript: true,
+				loadSidebar: true,
+				loadNavbar: false,
+				subMaxLevel: 3,
+				maxLevel: 3,
+				coverpage: false,
+				autoHeader: true,
+				// basePath: '/path/',
+				themeColor: 'rgb(188, 12, 12)',
+				search: "auto",
+
+				homepage: 'home.md',
+				auto2top: true,
+
+				tabs: {
+					persist    : true,
+					sync       : false,
+					theme      : 'classic',
+					tabComments: true,
+					tabHeadings: true
+				},
+
+				search: {
+					maxAge: 86400000,
+					paths: 'auto',
+					placeholder: 'Procurar',
+					noData: 'Sem resultado!',
+					depth: 6,
+					hideOtherSidebarContent: false,
+				},
+
+				pagination: {
+					previousText: 'Anterior',
+					nextText: 'Próximo',
+					crossChapter: true,
+					crossChapterText: true,
+				},
+
+				'flexible-alerts': {
+					// style: 'flat',
+				}
+			}
+		</script>
+		
+		<script src="./docsify.min.js"></script>
+		<script src="./docsify-tabs1.js"></script>
+		<script src="./docsify-pagination.min.js"></script>
+		<script src="./search.min.js"></script>
+		<script src="./docsify-themeable0.js"></script>
+		<script src="./docsify-plugin-flexible-alerts.min.js"></script>
+		<script src="//unpkg.com/docsify-accordion/src/index.js"></script>
+		<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+	</body>
+</html>

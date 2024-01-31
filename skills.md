@@ -1,0 +1,4 @@
+comandos
+mana
+skills
+stats
