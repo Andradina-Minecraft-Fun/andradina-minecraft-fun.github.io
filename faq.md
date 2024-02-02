@@ -1,4 +1,3 @@
-# FAQ
 
  &nbsp;
 
@@ -21,3 +20,7 @@
 + Perdi um item na lixeira sem querer, com recuperar? +
 
   Não é possivel recuperar um item da lixeira. Se você jogou um item importande dentro dele, perdeu. Não é possivel restaurar, não é possivel a staff confirmar que o item foi perdido.
+
++ Entrei agora, como achar um terreno para mim? +
+
+  Para ir até um local aleatório, digite `/rtp`.

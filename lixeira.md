@@ -1,4 +1,3 @@
-# Lixeira
 
 A lixeira é utilizada para jogar itens fora de forma simples e rapida. Basta utilizar o comando `/bin` e jogar os itens dentro dela.
 

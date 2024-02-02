@@ -1,8 +1,12 @@
 tabela de beneficios
+
 como efetuar o pagamento
+
 como funciona a ativação
+
 os kits
 
+<!-- 
 # vips.md é possivel ter mais de um vip
 
 - é possivel ter mais de um vip
@@ -128,4 +132,4 @@ blablabla
 
 ### - Kit Semanal
 
-blablabla
+blablabla -->

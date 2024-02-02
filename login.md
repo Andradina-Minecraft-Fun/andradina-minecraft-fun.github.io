@@ -1,6 +1,4 @@
 
-# Login
-
 Para começar, no seu primeiro login, você precisa se registar. para isso, o servidor te enviará um captcha para ser resolvido com o comando `/captcha`
 
 Após verificar que você sabe escrever, o você precisará se registrar com o comando `/register SENHA REPETIR_SENHA`, por exemplo `/register minhasenha minhasenha`

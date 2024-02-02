@@ -1,4 +1,3 @@
-# Chat
 
 Para falar local, basta digitar no chat do jogo
 
