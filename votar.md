@@ -11,7 +11,7 @@ Cada voto te da o direito à uma Chave, que deve ser usada nas caixas no `/spawn
 ## Lista de Sites
 
 - [slimefun.page](https://slimefun.page/main/servers/server/slug/2-servidor-da-ordem)
-- [topminecraftservers.org](https://topminecraftservers.org/vote/36407)
+<!-- - [topminecraftservers.org](https://topminecraftservers.org/vote/36407) -->
 - [minecraft.buzz](https://minecraft.buzz/vote/9617)
 - [topg.org](https://topg.org/minecraft-servers/server-660362)
 - [minecraftservers.org](https://minecraftservers.org/vote/658705)
