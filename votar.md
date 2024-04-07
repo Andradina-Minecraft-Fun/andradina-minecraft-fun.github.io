@@ -1,6 +1,8 @@
 # Votar
 
-Para votar, basta acessar os links abaixo. Você pode digitar o comando `/vote` para ter acesso aos links diretamente tambem!
+Para votar, basta acessar os links abaixo. 
+
+Digite o comando `/vote` para ter acesso à este link.
 
 Não se esqueça de informar seu nome de usuário ao votar, assim o sistema poderá te dar uma recompensa à cada voto. 
 
